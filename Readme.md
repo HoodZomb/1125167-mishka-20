@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Алексей Забнев](https://up.htmlacademy.ru/adaptive/20/user/1125167).
-* Наставник: `Неизвестно`.
+* Наставник: [Владислав Кривокора](https://up.htmlacademy.ru/adaptive/20/user/167185).
 
 ---
 
