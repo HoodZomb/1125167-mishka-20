@@ -7,10 +7,7 @@
 <body class="page__body">
   <header class="page-header">
     <a class="logo"></a>
-      <div class="visually-hidden">
-        <h1>Мишка</h1>
-      </div>
-      <nav class="main-nav">
+    <nav class="main-nav">
         <button class="main-nav__toggle" type="button">
             <span class="visually-hidden">Открыть меню</span>
         </button>
@@ -36,48 +33,48 @@
     <div class="page-main__page-title">
       <h2>Каталог товаров</h2>
     </div>
-    <section class="page-main__catalog">
-      <ul class="page-main__list catalog-list">
-        <li class="catalog-list__item">
-          <h3 class="catalog-list__item-title">Зайчик-попрыгайчик</h3>
-          <p class="catalog-list__item-parameters"> Рост 30 см, вес 200 г</p>
-          <b class="catalog-list__item-price"> 1200 руб.</b>
+    <section class="catalog">
+      <ul class="catalog__list product-list">
+        <li class="product-list__item">
+          <h3 class="product-list__item-title">Зайчик-попрыгайчик</h3>
+          <p class="product-list__item-parameters"> Рост 30 см, вес 200 г</p>
+          <b class="product-list__item-price"> 1200 руб.</b>
         </li>
-        <li class="catalog-list__item">
-          <h3 class="catalog-list__item-title">Корзинка для белья</h3>
-          <p class="catalog-list__item-parameters"> Диаметр 15 см, высота 10 см</p>
-          <b class="catalog-list__item-price"> 690 руб.</b>
+        <li class="product-list__item">
+          <h3 class="product-list__item-title">Корзинка для белья</h3>
+          <p class="product-list__item-parameters"> Диаметр 15 см, высота 10 см</p>
+          <b class="product-list__item-price"> 690 руб.</b>
         </li>
-        <li class="catalog-list__item">
-          <h3 class="catalog-list__item-title">Большая корзинка для игрушек</h3>
-          <p class="catalog-list__item-parameters"> Диаметр 30 см, высота 30 см</p>
-          <b class="catalog-list__item-price"> 1500 руб.</b>
+        <li class="product-list__item">
+          <h3 class="product-list__item-title">Большая корзинка для игрушек</h3>
+          <p class="product-list__item-parameters"> Диаметр 30 см, высота 30 см</p>
+          <b class="product-list__item-price"> 1500 руб.</b>
         </li>
     </section>
-    <section class="page-main__manufacturing">
+    <section class="manufacturing">
       <h3 class="manufacturing-title">Процесс производства</h3>
       <div class="manufacturing-video js-video"></div>
       <p class="manufacturing-video__description">По просьбам наших любимых фолловеров мы сняли для вас
         подробное видео о том, как появляются наши товары.</p>
-      <input class="page-main__manufacturing__order-button js-order" type="button" value="Сделать заказ">
+      <button class="manufacturing__order js-order" type="button">Сделать заказ</button>
     </section>
 
     <footer class="page-footer">
-        <ul class="social__list">
-          <li class="social__item">
+        <ul class="social social-list">
+          <li class="social-list__item">
             <a class="social__link social__link--instagram" href="https://www.instagram.com/mimimishkashop"></a>
           </li>
-          <li class="social__item">
+          <li class="social-list__item">
             <a class="social__link social__link--facebook" href="https://www.facebook.com/mimimishkashop"></a>
           </li>
-          <li class="social__item">
-            <a class="social__link social__link--tweeter" href="https://www.tweeter.com/mimimishkashop"></a>
+          <li class="social-list__item">
+            <a class="social__link social__link--twitter" href="https://www.tweeter.com/mimimishkashop"></a>
           </li>
         </ul>
       </div>
-      <div class="page-footer__developed">
+      <div class="copyright">
         <b>Разработано</b>
-        <a class="developed developed__logo--htmlacademy"></a>
+        <a class="copyright__logo copyright__logo--htmlacademy"></a>
       </div>
     </footer>
 
