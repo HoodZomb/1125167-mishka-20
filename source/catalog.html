@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Мишка</title>
+  </head>
+<body class="page__body">
+  <header class="page-header">
+    <a class="logo"></a>
+    <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+            <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="catalog.html">Каталог товаров</a>
+            </li>
+            <li class="site-list__item">
+              <a href="form.html">Вязание на заказ</a>
+            </li>
+            <li class="site-list__item">
+              <input class="site-list__search js-search" type="search">
+            </li>
+            <li class="site-list__item">
+              <a href="stock.html">Корзина:</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+  <main class="page-main">
+    <div class="page-main__page-title">
+      <h2>Каталог товаров</h2>
+    </div>
+    <section class="catalog">
+      <ul class="catalog__list product-list">
+        <li class="product-list__item">
+          <h3 class="product-list__item-title">Зайчик-попрыгайчик</h3>
+          <p class="product-list__item-parameters"> Рост 30 см, вес 200 г</p>
+          <b class="product-list__item-price"> 1200 руб.</b>
+        </li>
+        <li class="product-list__item">
+          <h3 class="product-list__item-title">Корзинка для белья</h3>
+          <p class="product-list__item-parameters"> Диаметр 15 см, высота 10 см</p>
+          <b class="product-list__item-price"> 690 руб.</b>
+        </li>
+        <li class="product-list__item">
+          <h3 class="product-list__item-title">Большая корзинка для игрушек</h3>
+          <p class="product-list__item-parameters"> Диаметр 30 см, высота 30 см</p>
+          <b class="product-list__item-price"> 1500 руб.</b>
+        </li>
+    </section>
+    <section class="manufacturing">
+      <h3 class="manufacturing-title">Процесс производства</h3>
+      <div class="manufacturing-video js-video"></div>
+      <p class="manufacturing-video__description">По просьбам наших любимых фолловеров мы сняли для вас
+        подробное видео о том, как появляются наши товары.</p>
+      <button class="manufacturing__order js-order" type="button">Сделать заказ</button>
+    </section>
+
+    <footer class="page-footer">
+        <ul class="social social-list">
+          <li class="social-list__item">
+            <a class="social__link social__link--instagram" href="https://www.instagram.com/mimimishkashop"></a>
+          </li>
+          <li class="social-list__item">
+            <a class="social__link social__link--facebook" href="https://www.facebook.com/mimimishkashop"></a>
+          </li>
+          <li class="social-list__item">
+            <a class="social__link social__link--twitter" href="https://www.twitter.com/mimimishkashop"></a>
+          </li>
+        </ul>
+      <div class="copyright">
+        <b>Разработано</b>
+        <a class="copyright__logo copyright__logo--htmlacademy"></a>
+      </div>
+    </footer>
+
+</body>
+</html>
